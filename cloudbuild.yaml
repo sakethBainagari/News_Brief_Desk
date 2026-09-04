@@ -1,21 +1,21 @@
 steps:
-  # 1. Build Docker image for the Flask backend
+  # 1. Build Docker image for the Flask backend using Google Artifact Registry
   - name: 'gcr.io/cloud-builders/docker'
     args:
       - 'build'
       - '-t'
-      - 'gcr.io/$PROJECT_ID/news-brief-desk:$COMMIT_SHA'
+      - 'asia-south1-docker.pkg.dev/$PROJECT_ID/news-brief-desk/news-brief-desk:$COMMIT_SHA'
       - '-t'
-      - 'gcr.io/$PROJECT_ID/news-brief-desk:latest'
+      - 'asia-south1-docker.pkg.dev/$PROJECT_ID/news-brief-desk/news-brief-desk:latest'
       - '-f'
       - 'backend/Dockerfile'
       - 'backend'
 
-  # 2. Push image to Container Registry
+  # 2. Push image to Artifact Registry
   - name: 'gcr.io/cloud-builders/docker'
     args:
       - 'push'
-      - 'gcr.io/$PROJECT_ID/news-brief-desk:$COMMIT_SHA'
+      - 'asia-south1-docker.pkg.dev/$PROJECT_ID/news-brief-desk/news-brief-desk:$COMMIT_SHA'
 
   # 3. Deploy container image to Google Cloud Run
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
@@ -25,7 +25,7 @@ steps:
       - 'deploy'
       - 'news-brief-desk'
       - '--image'
-      - 'gcr.io/$PROJECT_ID/news-brief-desk:$COMMIT_SHA'
+      - 'asia-south1-docker.pkg.dev/$PROJECT_ID/news-brief-desk/news-brief-desk:$COMMIT_SHA'
       - '--region'
       - 'asia-south1'
       - '--platform'
@@ -33,8 +33,8 @@ steps:
       - '--allow-unauthenticated'
 
 images:
-  - 'gcr.io/$PROJECT_ID/news-brief-desk:$COMMIT_SHA'
-  - 'gcr.io/$PROJECT_ID/news-brief-desk:latest'
+  - 'asia-south1-docker.pkg.dev/$PROJECT_ID/news-brief-desk/news-brief-desk:$COMMIT_SHA'
+  - 'asia-south1-docker.pkg.dev/$PROJECT_ID/news-brief-desk/news-brief-desk:latest'
 
 options:
   logging: CLOUD_LOGGING_ONLY
