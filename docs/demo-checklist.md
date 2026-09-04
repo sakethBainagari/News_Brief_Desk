@@ -1,0 +1,22 @@
+# Demo acceptance checklist
+
+- [ ] Login as Reporter
+- [ ] Reporter sees incoming raw items
+- [ ] Run event clustering
+- [ ] Three differently worded reports become one story
+- [ ] Story shows all three sources
+- [ ] Similar-topic but different-event reports remain separate
+- [ ] AI brief is generated
+- [ ] Reporter edits brief
+- [ ] Reporter submits to Editor
+- [ ] Reporter cannot publish
+- [ ] Login as Editor
+- [ ] Editor sees submitted brief
+- [ ] Editor rewrites/approves
+- [ ] Editor publishes
+- [ ] Publication timestamp is recorded
+- [ ] Two stories can later be merged
+- [ ] Audit trail records merge
+- [ ] Login as Desk Head
+- [ ] Yesterday's published stories are visible
+- [ ] Time-to-publication is calculated

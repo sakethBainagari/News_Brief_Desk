@@ -1,0 +1,427 @@
+[
+  {
+    "event_id": "EVT-TECH-001",
+    "title": "Government clearance for $2 Billion Semiconductor Manufacturing Facility in Hyderabad",
+    "category": "Technology",
+    "false_match_pair_event_id": "EVT-TECH-002",
+    "key_facts": {
+      "location": "Hyderabad",
+      "type": "Manufacturing Facility",
+      "value": "$2 Billion"
+    },
+    "raw_item_ids": [
+      "e91e6fa6-cd08-5102-8f05-6ed41e26fa02",
+      "58175d2a-f21a-5b15-9d7f-3da12c41bd73",
+      "3f910f7b-3fa3-501d-b3b7-c0d565f9784b",
+      "eb23fc34-86c3-5aa2-96f9-f407f43ef181"
+    ],
+    "source_count": 4
+  },
+  {
+    "event_id": "EVT-TECH-002",
+    "title": "$800 Million Semiconductor R&D Center Commitment in Bengaluru",
+    "category": "Technology",
+    "false_match_pair_event_id": "EVT-TECH-001",
+    "key_facts": {
+      "location": "Bengaluru",
+      "type": "R&D Center",
+      "value": "$800 Million"
+    },
+    "raw_item_ids": [
+      "0c510f74-7824-50bb-955a-c4a395b2f751",
+      "46769c25-e4f5-5f10-bdc7-05c5bf5799b1",
+      "e0dcb70f-4965-5d7e-a898-494879899629",
+      "dd10a170-e3e7-56af-8e59-616fb74e1fa3"
+    ],
+    "source_count": 4
+  },
+  {
+    "event_id": "EVT-BIZ-001",
+    "title": "RBI cuts repo rate by 25 basis points to 6.25%",
+    "category": "Business",
+    "false_match_pair_event_id": "EVT-BIZ-002",
+    "key_facts": {
+      "institution": "RBI (Reserve Bank of India)",
+      "action": "Rate Cut 25bps",
+      "new_rate": "6.25%"
+    },
+    "raw_item_ids": [
+      "793adb47-9479-5743-81c6-2e0c93d69899",
+      "0162b7f7-863a-5f91-8f56-80f7f6ae5f13",
+      "a412b98e-d4f2-5090-a5f5-41e3175cd8ae",
+      "d4150e1f-9837-52eb-b409-f22e49ec80d8"
+    ],
+    "source_count": 4
+  },
+  {
+    "event_id": "EVT-BIZ-002",
+    "title": "US Federal Reserve holds benchmark interest rate steady at 5.25%",
+    "category": "Business",
+    "false_match_pair_event_id": "EVT-BIZ-001",
+    "key_facts": {
+      "institution": "US Federal Reserve",
+      "action": "Rate Hold",
+      "rate": "5.25%"
+    },
+    "raw_item_ids": [
+      "6976a396-d6c4-5f1b-8bff-54073079e49f",
+      "7f2a35ef-6167-5086-9997-027b9d1ca17d",
+      "c0523deb-9e62-5faa-81ce-0f518227f6cf",
+      "16e12e33-8717-56bf-a579-cc69dc4e62c3"
+    ],
+    "source_count": 4
+  },
+  {
+    "event_id": "EVT-TRN-001",
+    "title": "Mumbai Metro Line 3 Underground Corridor Commercial Commissioning",
+    "category": "Transport",
+    "false_match_pair_event_id": "EVT-TRN-002",
+    "key_facts": {
+      "city": "Mumbai",
+      "line": "Line 3 (Aqua Line)",
+      "type": "Underground Metro"
+    },
+    "raw_item_ids": [
+      "8a233243-222b-5efa-ab08-fb0ff7012cd5",
+      "ef2618bf-a7a0-518e-8706-765d432776a1",
+      "b96b0615-912c-578b-b6b7-2ab77e3561c1",
+      "84408701-bd55-5832-af8b-ea6bc73a18e8"
+    ],
+    "source_count": 4
+  },
+  {
+    "event_id": "EVT-TRN-002",
+    "title": "Delhi Metro Phase 4 Silver Line Tunneling Completion",
+    "category": "Transport",
+    "false_match_pair_event_id": "EVT-TRN-001",
+    "key_facts": {
+      "city": "Delhi",
+      "line": "Phase 4 Silver Line",
+      "type": "Tunneling Completion"
+    },
+    "raw_item_ids": [
+      "95343d56-5193-566f-8f80-5b8c290e3cee",
+      "4b5e3407-9ae5-5aa7-8da3-0faadc91460b",
+      "67fec51d-62a0-5817-ad14-0e327d4ca0a9",
+      "c4cc5db7-afee-563e-844f-af8bd1317707"
+    ],
+    "source_count": 4
+  },
+  {
+    "event_id": "EVT-NRG-001",
+    "title": "Reliance $10 Billion Solar Gigafactory Commissioning in Kutch, Gujarat",
+    "category": "Energy",
+    "false_match_pair_event_id": "EVT-NRG-002",
+    "key_facts": {
+      "company": "Reliance Industries",
+      "location": "Kutch, Gujarat",
+      "tech": "Solar Gigafactory",
+      "value": "$10 Billion"
+    },
+    "raw_item_ids": [
+      "a47108ef-8155-5047-b96c-733af372d798",
+      "24393b20-0abe-51a7-810f-7c6e202fb527",
+      "7857aeab-df30-5958-99ea-e0787557c955",
+      "460a8ef7-b615-5ef2-9ffa-1257a7fa9601"
+    ],
+    "source_count": 4
+  },
+  {
+    "event_id": "EVT-NRG-002",
+    "title": "Adani $5 Billion Wind Energy Park Inauguration in Jaisalmer, Rajasthan",
+    "category": "Energy",
+    "false_match_pair_event_id": "EVT-NRG-001",
+    "key_facts": {
+      "company": "Adani Green Energy",
+      "location": "Jaisalmer, Rajasthan",
+      "tech": "Wind Energy Park",
+      "value": "$5 Billion"
+    },
+    "raw_item_ids": [
+      "bdf5e412-a98b-5c6f-ade6-6acddeff279b",
+      "0bd4bbcd-ff3a-5eef-8c1c-f9a38fcc161c",
+      "9f844865-2bed-5646-bb47-f91e4960ce5c",
+      "05946137-aa99-5d1f-af38-c3ccc5126fce"
+    ],
+    "source_count": 4
+  },
+  {
+    "event_id": "EVT-HLT-001",
+    "title": "AIIMS New Delhi Breakthrough in Phase-3 mRNA Cancer Vaccine Trials",
+    "category": "Healthcare",
+    "false_match_pair_event_id": "EVT-HLT-002",
+    "key_facts": {
+      "institution": "AIIMS New Delhi",
+      "field": "Cancer Vaccine",
+      "tech": "mRNA Phase-3"
+    },
+    "raw_item_ids": [
+      "fdf84db9-c803-5a23-a6a3-14f7f3735f5b",
+      "d3cad5a5-9e9d-5ee4-b6b5-baba9af1ff9c",
+      "3e15d8a3-2fd4-5785-903e-81d0a852dfaa",
+      "a5e69a82-f7b7-5c51-a3e5-29373e3234db"
+    ],
+    "source_count": 4
+  },
+  {
+    "event_id": "EVT-HLT-002",
+    "title": "NIMHANS Bengaluru Study on AI-Assisted Early Alzheimer Detection",
+    "category": "Healthcare",
+    "false_match_pair_event_id": "EVT-HLT-001",
+    "key_facts": {
+      "institution": "NIMHANS Bengaluru",
+      "field": "Alzheimer Detection",
+      "tech": "AI Brain Scans"
+    },
+    "raw_item_ids": [
+      "16302654-79f0-5522-a4c6-f3cca1ae3ced",
+      "cc4efc88-068b-5d4d-8917-db1c0078bdd2",
+      "0e0caa9a-72c5-52fa-81bd-fa335121dd07",
+      "f1b0bd1e-82aa-5822-a951-28096756f306"
+    ],
+    "source_count": 4
+  },
+  {
+    "event_id": "EVT-AVN-001",
+    "title": "Noida International Airport at Jewar Completes Inaugural Trial Flights",
+    "category": "Transport",
+    "false_match_pair_event_id": "EVT-AVN-002",
+    "key_facts": {
+      "location": "Jewar, Noida (UP)",
+      "airport": "Noida International Airport",
+      "status": "Calibration Flights Complete"
+    },
+    "raw_item_ids": [
+      "1328cb76-a5fd-53ac-bab8-5a0ba3196041",
+      "b43e2daf-b1c9-50b9-a99e-cbdd9c57d43d",
+      "28095d97-6b54-5535-9be6-9b374a016ccf",
+      "896d9676-4d8a-512f-b18c-ddbea0f3791d"
+    ],
+    "source_count": 4
+  },
+  {
+    "event_id": "EVT-AVN-002",
+    "title": "Navi Mumbai International Airport Receives DGCA Aerodrome License",
+    "category": "Transport",
+    "false_match_pair_event_id": "EVT-AVN-001",
+    "key_facts": {
+      "location": "Navi Mumbai (Maharashtra)",
+      "airport": "Navi Mumbai International Airport",
+      "status": "Aerodrome License Sanctioned"
+    },
+    "raw_item_ids": [
+      "695fbbcf-7521-57e6-b483-01ffccd85d14",
+      "4d0410c7-64af-5e97-8756-a222ecb05faa",
+      "08e426e6-67b6-5066-be35-d3c4a96b7a67",
+      "8af5bb13-d2d1-511a-8c14-f4b9ec16feaa"
+    ],
+    "source_count": 4
+  },
+  {
+    "event_id": "EVT-AUTO-001",
+    "title": "Tata Motors $1.5 Billion EV Assembly Mega-Plant in Sanand, Gujarat",
+    "category": "Business",
+    "false_match_pair_event_id": "EVT-AUTO-002",
+    "key_facts": {
+      "company": "Tata Motors",
+      "location": "Sanand, Gujarat",
+      "facility": "EV Vehicle Assembly",
+      "value": "$1.5 Billion"
+    },
+    "raw_item_ids": [
+      "61cc83aa-29ed-5ee9-a19c-f1c104e8099b",
+      "d9ed184d-2179-5bc1-af99-bb5ec698f175",
+      "2b2edae6-78eb-5826-9999-dfaa0c654380",
+      "3b883b96-99b7-55c9-bcfa-86b09419bcf7"
+    ],
+    "source_count": 4
+  },
+  {
+    "event_id": "EVT-AUTO-002",
+    "title": "Mahindra $900 Million EV Battery Cell Giga-facility in Pune, Maharashtra",
+    "category": "Business",
+    "false_match_pair_event_id": "EVT-AUTO-001",
+    "key_facts": {
+      "company": "Mahindra & Mahindra",
+      "location": "Pune, Maharashtra",
+      "facility": "Battery Cell Manufacturing",
+      "value": "$900 Million"
+    },
+    "raw_item_ids": [
+      "6ca5c696-797d-5c4b-869b-d940c1f7168e",
+      "5fbec8ce-9299-58c5-8f69-52073d0aabf2",
+      "294340fc-28c8-5bad-8dc7-80139642d872",
+      "eb13dbbb-e31e-5efe-ba6e-29a84ee38f15"
+    ],
+    "source_count": 4
+  },
+  {
+    "event_id": "EVT-ENV-001",
+    "title": "NGT Sanctions \u20b9500 Crore Penalty on Yamuna River Toxic Foam Polluters",
+    "category": "Environment",
+    "false_match_pair_event_id": "EVT-ENV-002",
+    "key_facts": {
+      "court": "NGT (National Green Tribunal)",
+      "target": "Yamuna River",
+      "city": "Delhi",
+      "penalty": "\u20b9500 Crore"
+    },
+    "raw_item_ids": [
+      "9b76baf5-c75d-5517-af7f-f6254ab8e53a",
+      "0a374942-1269-5b56-b8c2-427ec86b9750",
+      "2fabc5a9-77f2-5520-80d0-9d0dc3f94767",
+      "86cfda69-0c92-589b-b84d-03d0de14488b"
+    ],
+    "source_count": 4
+  },
+  {
+    "event_id": "EVT-ENV-002",
+    "title": "High Court Directs Action Plan for Mula-Mutha River Cleanup in Pune",
+    "category": "Environment",
+    "false_match_pair_event_id": "EVT-ENV-001",
+    "key_facts": {
+      "court": "Bombay High Court",
+      "target": "Mula-Mutha River",
+      "city": "Pune",
+      "action": "STP Action Plan"
+    },
+    "raw_item_ids": [
+      "21a7fef9-e554-5ea9-aab4-6eb782e84927",
+      "3d912fbe-770b-5faa-bd84-2d1ec2f403cf",
+      "957e8776-1dfa-504d-818f-01d46901294b",
+      "eeb94b60-8f75-5c58-aa3e-2d373127c8bb"
+    ],
+    "source_count": 4
+  },
+  {
+    "event_id": "EVT-SPT-001",
+    "title": "India Wins T20 Cricket World Cup Final Victory Against South Africa",
+    "category": "Sports",
+    "false_match_pair_event_id": "EVT-SPT-002",
+    "key_facts": {
+      "sport": "Cricket",
+      "tournament": "T20 World Cup",
+      "opponent": "South Africa",
+      "venue": "Barbados"
+    },
+    "raw_item_ids": [
+      "e13b37e3-4a1b-5c61-8ef1-77fd8f6d284f",
+      "a1db5c30-7134-54a7-be48-063d5c4447f3",
+      "1f15ffab-30ba-5b81-bae3-4ed6d87b3d25",
+      "54ac32c2-dc11-5518-abeb-edea6e2505a0"
+    ],
+    "source_count": 4
+  },
+  {
+    "event_id": "EVT-SPT-002",
+    "title": "India Men's Hockey Team Wins Asian Champions Trophy Gold in Inner Mongolia",
+    "category": "Sports",
+    "false_match_pair_event_id": "EVT-SPT-001",
+    "key_facts": {
+      "sport": "Field Hockey",
+      "tournament": "Asian Champions Trophy",
+      "opponent": "China",
+      "venue": "Hulunbuir"
+    },
+    "raw_item_ids": [
+      "c855008f-7d7b-5753-a8ed-ff6f2ca2201e",
+      "acb8b2e7-64bb-560f-811b-161d1613557a",
+      "fc87e500-6aeb-5edc-be0c-918eef929b74",
+      "50818361-e000-59d5-96b0-2f5b6331c658"
+    ],
+    "source_count": 4
+  },
+  {
+    "event_id": "EVT-ECO-001",
+    "title": "India Q1 GDP Growth Accelerates to 7.8% Beating Consensus",
+    "category": "Economy",
+    "false_match_pair_event_id": null,
+    "key_facts": {
+      "indicator": "GDP Growth",
+      "value": "7.8%",
+      "period": "Q1"
+    },
+    "raw_item_ids": [
+      "bf63d9a5-263f-5b46-a50e-e30aeb171fe5",
+      "ab3d280d-8bc7-57b2-a44b-85631d05d0cd",
+      "b1356ee2-ab0e-577e-970d-7dd877eb0472",
+      "5e2b65be-5232-5267-9564-2ce27afc70fe"
+    ],
+    "source_count": 4
+  },
+  {
+    "event_id": "EVT-SCI-001",
+    "title": "ISRO Successfully Launches EOS-08 Earth Observation Satellite",
+    "category": "Science",
+    "false_match_pair_event_id": null,
+    "key_facts": {
+      "agency": "ISRO",
+      "mission": "EOS-08 Satellite",
+      "launcher": "SSLV-D3"
+    },
+    "raw_item_ids": [
+      "5e6ce623-4e7f-5dca-a0a8-44be68405b93"
+    ],
+    "source_count": 1
+  },
+  {
+    "event_id": "EVT-LOC-001",
+    "title": "Greater Chennai Corporation Opens 50 Urban Micro-Parks with Rainwater Harvesting",
+    "category": "Local",
+    "false_match_pair_event_id": null,
+    "key_facts": {
+      "city": "Chennai",
+      "project": "50 Sponge Micro-Parks",
+      "focus": "Flood Mitigation"
+    },
+    "raw_item_ids": [
+      "cb674fe9-6380-53b3-904a-fa4e365c8dac"
+    ],
+    "source_count": 1
+  },
+  {
+    "event_id": "EVT-ECO-002",
+    "title": "Retail Inflation Drops to 3.54% Hitting 5-Year Record Low",
+    "category": "Economy",
+    "false_match_pair_event_id": null,
+    "key_facts": {
+      "indicator": "Consumer Price Index (CPI)",
+      "value": "3.54%",
+      "period": "July"
+    },
+    "raw_item_ids": [
+      "3c60dccb-5e9d-5b19-b763-460b765c4c62"
+    ],
+    "source_count": 1
+  },
+  {
+    "event_id": "EVT-FIN-001",
+    "title": "SEBI Issues Revised Regulatory Framework for Algorithmic Trading",
+    "category": "Business",
+    "false_match_pair_event_id": null,
+    "key_facts": {
+      "regulator": "SEBI",
+      "subject": "Algorithmic Trading",
+      "rule": "API Audit Requirements"
+    },
+    "raw_item_ids": [
+      "90aaa9ee-ad19-5c38-9a48-5104c2969292"
+    ],
+    "source_count": 1
+  },
+  {
+    "event_id": "EVT-TOU-001",
+    "title": "Kerala Announces \u20b9250 Crore Eco-Tourism Infrastructure Revamp Plan in Wayanad",
+    "category": "Local",
+    "false_match_pair_event_id": null,
+    "key_facts": {
+      "state": "Kerala",
+      "district": "Wayanad",
+      "funding": "\u20b9250 Crore"
+    },
+    "raw_item_ids": [
+      "909df08d-2028-5e22-934a-6ac18c8e9e63"
+    ],
+    "source_count": 1
+  }
+]

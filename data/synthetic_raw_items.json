@@ -1,0 +1,812 @@
+[
+  {
+    "id": "e91e6fa6-cd08-5102-8f05-6ed41e26fa02",
+    "source_name": "Deccan Business Wire",
+    "headline": "Hyderabad semiconductor manufacturing facility receives government clearance",
+    "body": "Authorities have cleared a proposed $2 billion semiconductor manufacturing facility in Hyderabad. The project is expected to create thousands of direct tech and engineering jobs once construction begins.",
+    "category": "Technology",
+    "source_published_at": "2026-09-03T15:53:34.953716+00:00",
+    "ingested_at": "2026-09-03T16:21:34.953716+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "58175d2a-f21a-5b15-9d7f-3da12c41bd73",
+    "source_name": "South Asia Technology Review",
+    "headline": "Government clears $2bn chip plant planned for Hyderabad",
+    "body": "A major chip manufacturing project planned for Hyderabad has received final government approval, according to officials familiar with the decision. Total capital outlay is estimated at $2 billion.",
+    "category": "Technology",
+    "source_published_at": "2026-09-03T16:57:34.953716+00:00",
+    "ingested_at": "2026-09-03T17:09:34.953716+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "3f910f7b-3fa3-501d-b3b7-c0d565f9784b",
+    "source_name": "Metro Press Network",
+    "headline": "Hyderabad set for major semiconductor investment after project approval",
+    "body": "Hyderabad is set to receive a large semiconductor investment after authorities cleared plans for a fabrication facility worth about $2 billion.",
+    "category": "Technology",
+    "source_published_at": "2026-09-03T16:44:34.953716+00:00",
+    "ingested_at": "2026-09-03T16:53:34.953716+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "eb23fc34-86c3-5aa2-96f9-f407f43ef181",
+    "source_name": "Global Tech Pulse",
+    "headline": "Telangana capital secures $2B chip manufacturing plant approval",
+    "body": "The union government has officially greenlit a $2 billion semiconductor production unit in Hyderabad, boosting India's domestic hardware manufacturing push.",
+    "category": "Technology",
+    "source_published_at": "2026-09-03T18:55:34.953716+00:00",
+    "ingested_at": "2026-09-03T19:03:34.953716+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "0c510f74-7824-50bb-955a-c4a395b2f751",
+    "source_name": "Capital Markets Daily",
+    "headline": "Bengaluru technology research center gets $800m semiconductor commitment",
+    "body": "A separate technology research center planned in Bengaluru has secured an $800 million investment commitment. The project focuses strictly on semiconductor R&D and chip architecture design rather than mass production.",
+    "category": "Technology",
+    "source_published_at": "2026-09-03T21:09:30.584287+00:00",
+    "ingested_at": "2026-09-03T21:31:30.584287+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "46769c25-e4f5-5f10-bdc7-05c5bf5799b1",
+    "source_name": "South Asia Technology Review",
+    "headline": "Karnataka capital attracts $800M chip R&D hub investment",
+    "body": "Investors have committed $800 million to establish an advanced semiconductor research facility in Bengaluru, highlighting the city's leadership in chip design talent.",
+    "category": "Technology",
+    "source_published_at": "2026-09-03T17:43:30.584287+00:00",
+    "ingested_at": "2026-09-03T18:06:30.584287+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "e0dcb70f-4965-5d7e-a898-494879899629",
+    "source_name": "Indo-Pacific Observer",
+    "headline": "New $800 million semiconductor R&D complex approved for Bengaluru",
+    "body": "State authorities in Karnataka have sanctioned an $800 million semiconductor technology lab in Bengaluru focused on next-generation microarchitecture.",
+    "category": "Technology",
+    "source_published_at": "2026-09-03T19:09:30.584287+00:00",
+    "ingested_at": "2026-09-03T19:15:30.584287+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "dd10a170-e3e7-56af-8e59-616fb74e1fa3",
+    "source_name": "Global Tech Pulse",
+    "headline": "Bengaluru secures $800M semiconductor research lab commitment",
+    "body": "A major consortium of technology firms has pledged $800 million for a semiconductor research and development center situated in Bengaluru.",
+    "category": "Technology",
+    "source_published_at": "2026-09-03T17:28:30.584287+00:00",
+    "ingested_at": "2026-09-03T17:35:30.584287+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "793adb47-9479-5743-81c6-2e0c93d69899",
+    "source_name": "Financial Chronicle Direct",
+    "headline": "RBI cuts benchmark repo rate by 25 bps to 6.25% in surprise policy move",
+    "body": "The Monetary Policy Committee of the Reserve Bank of India voted to lower the key repo rate by 25 basis points to 6.25%, citing easing headline inflation pressures.",
+    "category": "Business",
+    "source_published_at": "2026-09-03T00:16:11.683579+00:00",
+    "ingested_at": "2026-09-03T00:40:11.683579+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "0162b7f7-863a-5f91-8f56-80f7f6ae5f13",
+    "source_name": "Capital Markets Daily",
+    "headline": "Reserve Bank lowers repo rate to 6.25 percent to spur economic growth",
+    "body": "In a monetary policy shift, India's central bank reduced the benchmark lending rate by 25 basis points to 6.25%, aiming to support credit demand.",
+    "category": "Business",
+    "source_published_at": "2026-09-02T22:13:11.683579+00:00",
+    "ingested_at": "2026-09-02T22:35:11.683579+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "a412b98e-d4f2-5090-a5f5-41e3175cd8ae",
+    "source_name": "National News Syndicate",
+    "headline": "RBI lowers interest rates: Repo rate trimmed to 6.25%",
+    "body": "India's central bank has cut its key repo rate by 0.25 percentage points to 6.25%, providing relief for commercial borrowers and home loan seekers.",
+    "category": "Business",
+    "source_published_at": "2026-09-02T22:57:11.683579+00:00",
+    "ingested_at": "2026-09-02T23:24:11.683579+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "d4150e1f-9837-52eb-b409-f22e49ec80d8",
+    "source_name": "State Commerce Gazette",
+    "headline": "Monetary Policy Committee cuts RBI repo rate to 6.25%",
+    "body": "Following its bi-monthly review, the RBI Monetary Policy Committee announced a 25 basis point cut in the repo rate, bringing it down to 6.25%.",
+    "category": "Business",
+    "source_published_at": "2026-09-03T00:53:11.683579+00:00",
+    "ingested_at": "2026-09-03T01:20:11.683579+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "6976a396-d6c4-5f1b-8bff-54073079e49f",
+    "source_name": "Pacific Rim Dispatch",
+    "headline": "Federal Reserve maintains US interest rates at 5.25% amid sticky inflation",
+    "body": "The US Federal Reserve held its benchmark interest rate target steady at 5.25% to 5.50%, noting that while economic activity continues to expand, inflation remains elevated.",
+    "category": "Business",
+    "source_published_at": "2026-09-03T12:45:28.773656+00:00",
+    "ingested_at": "2026-09-03T13:04:28.773656+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "7f2a35ef-6167-5086-9997-027b9d1ca17d",
+    "source_name": "Financial Chronicle Direct",
+    "headline": "US Fed leaves interest rates unchanged at 5.25% baseline",
+    "body": "American central bankers opted to keep key borrowing costs untouched at 5.25%, signaling patience before considering any monetary policy easing.",
+    "category": "Business",
+    "source_published_at": "2026-09-03T14:19:28.773656+00:00",
+    "ingested_at": "2026-09-03T14:32:28.773656+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "c0523deb-9e62-5faa-81ce-0f518227f6cf",
+    "source_name": "Global Tech Pulse",
+    "headline": "Fed pauses rate changes, keeping key benchmark at 5.25%",
+    "body": "In line with market expectations, the Federal Reserve kept interest rates frozen at 5.25%, reiterating its commitment to returning inflation to target levels.",
+    "category": "Business",
+    "source_published_at": "2026-09-03T15:16:28.773656+00:00",
+    "ingested_at": "2026-09-03T15:21:28.773656+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "16e12e33-8717-56bf-a579-cc69dc4e62c3",
+    "source_name": "Indo-Pacific Observer",
+    "headline": "US central bank holds monetary policy rate steady at 5.25%",
+    "body": "The US Federal Reserve concluded its policy meeting by leaving key benchmark interest rates unchanged at 5.25%.",
+    "category": "Business",
+    "source_published_at": "2026-09-03T15:03:28.773656+00:00",
+    "ingested_at": "2026-09-03T15:33:28.773656+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "8a233243-222b-5efa-ab08-fb0ff7012cd5",
+    "source_name": "Urban Transport Weekly",
+    "headline": "Mumbai Metro Line 3 underground Aqua Line opens for commercial passenger service",
+    "body": "Mumbai's first fully underground metro corridor, Line 3 connecting Colaba to SEEPZ, commenced passenger operations today following safety clearance.",
+    "category": "Transport",
+    "source_published_at": "2026-09-02T21:26:34.110425+00:00",
+    "ingested_at": "2026-09-02T21:41:34.110425+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "ef2618bf-a7a0-518e-8706-765d432776a1",
+    "source_name": "Metro Press Network",
+    "headline": "Passengers ride Mumbai Aqua Line 3 as underground metro opens",
+    "body": "Commuters in Mumbai turned out in large numbers as the long-awaited Line 3 underground metro line officially launched passenger runs between South Mumbai and key commercial hubs.",
+    "category": "Transport",
+    "source_published_at": "2026-09-02T20:49:34.110425+00:00",
+    "ingested_at": "2026-09-02T20:58:34.110425+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "b96b0615-912c-578b-b6b7-2ab77e3561c1",
+    "source_name": "Deccan Business Wire",
+    "headline": "Mumbai Line 3 underground metro line flags off first passenger trains",
+    "body": "Urban transit authorities in Mumbai inaugurated revenue operations on the Line 3 Aqua Line corridor, bringing seamless underground transit to the financial capital.",
+    "category": "Transport",
+    "source_published_at": "2026-09-02T20:33:34.110425+00:00",
+    "ingested_at": "2026-09-02T21:02:34.110425+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "84408701-bd55-5832-af8b-ea6bc73a18e8",
+    "source_name": "National News Syndicate",
+    "headline": "Underground transit era begins in Mumbai with Line 3 inauguration",
+    "body": "Commercial services officially began on Mumbai Metro Line 3 today, cutting commute times across densely populated urban centers.",
+    "category": "Transport",
+    "source_published_at": "2026-09-02T21:04:34.110425+00:00",
+    "ingested_at": "2026-09-02T21:12:34.110425+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "95343d56-5193-566f-8f80-5b8c290e3cee",
+    "source_name": "Urban Transport Weekly",
+    "headline": "Delhi Metro Phase 4 Silver Line completes final underground tunnel breakthrough",
+    "body": "Engineers on the Delhi Metro Phase 4 Silver Line project achieved a major milestone today by completing tunneling work on the Aerocity-Tughlakabad underground section.",
+    "category": "Transport",
+    "source_published_at": "2026-09-02T17:13:56.793308+00:00",
+    "ingested_at": "2026-09-02T17:29:56.793308+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "4b5e3407-9ae5-5aa7-8da3-0faadc91460b",
+    "source_name": "Metro Press Network",
+    "headline": "Tunnel breakthrough achieved for Delhi Metro Silver Line Phase 4",
+    "body": "DMRC announced the completion of underground tunneling for a critical segment of the Phase 4 Silver Line connecting Aerocity with Tughlakabad.",
+    "category": "Transport",
+    "source_published_at": "2026-09-02T20:25:56.793308+00:00",
+    "ingested_at": "2026-09-02T20:41:56.793308+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "67fec51d-62a0-5817-ad14-0e327d4ca0a9",
+    "source_name": "Pacific Rim Dispatch",
+    "headline": "Delhi Metro achieves Phase 4 underground tunneling milestone",
+    "body": "Construction teams finished excavation work on the Delhi Metro Phase 4 Silver Line underground tunnel using tunnel boring machines.",
+    "category": "Transport",
+    "source_published_at": "2026-09-02T19:23:56.793308+00:00",
+    "ingested_at": "2026-09-02T19:36:56.793308+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "c4cc5db7-afee-563e-844f-af8bd1317707",
+    "source_name": "State Commerce Gazette",
+    "headline": "Silver Line tunneling completed for Delhi Metro expansion",
+    "body": "The Delhi Metro Rail Corporation reported successful breakthrough of the last tunnel boring machine working on the Phase 4 Silver Line route.",
+    "category": "Transport",
+    "source_published_at": "2026-09-02T20:15:56.793308+00:00",
+    "ingested_at": "2026-09-02T20:21:56.793308+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "a47108ef-8155-5047-b96c-733af372d798",
+    "source_name": "Apex Energy Journal",
+    "headline": "Reliance commissions $10B solar PV manufacturing gigafactory in Kutch",
+    "body": "Reliance Industries has officially commissioned the first phase of its $10 billion solar photovoltaic manufacturing gigafactory in Kutch, Gujarat.",
+    "category": "Energy",
+    "source_published_at": "2026-09-03T21:52:09.067937+00:00",
+    "ingested_at": "2026-09-03T22:00:09.067937+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "24393b20-0abe-51a7-810f-7c6e202fb527",
+    "source_name": "Deccan Business Wire",
+    "headline": "Giant $10 billion solar panel factory opens in Kutch district",
+    "body": "Operations have started at a massive $10 billion solar equipment manufacturing plant located in Kutch, Gujarat, aimed at supplying domestic solar projects.",
+    "category": "Energy",
+    "source_published_at": "2026-09-03T23:31:09.067937+00:00",
+    "ingested_at": "2026-09-03T23:48:09.067937+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "7857aeab-df30-5958-99ea-e0787557c955",
+    "source_name": "Financial Chronicle Direct",
+    "headline": "Kutch solar gigafactory begins commercial production following $10B outlay",
+    "body": "Production lines for high-efficiency solar modules went live today at the new $10 billion solar gigafactory facility in Gujarat's Kutch region.",
+    "category": "Energy",
+    "source_published_at": "2026-09-03T19:55:09.067937+00:00",
+    "ingested_at": "2026-09-03T20:17:09.067937+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "460a8ef7-b615-5ef2-9ffa-1257a7fa9601",
+    "source_name": "State Commerce Gazette",
+    "headline": "Gujarat solar manufacturing gigafactory backed by $10B investment launches",
+    "body": "A landmark $10 billion solar PV manufacturing complex in Kutch has begun commercial operations, marking a giant step for green energy independence.",
+    "category": "Energy",
+    "source_published_at": "2026-09-03T20:50:09.067937+00:00",
+    "ingested_at": "2026-09-03T21:15:09.067937+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "bdf5e412-a98b-5c6f-ade6-6acddeff279b",
+    "source_name": "Apex Energy Journal",
+    "headline": "Adani Green inaugurates $5B wind power plant complex in Jaisalmer",
+    "body": "Adani Green Energy has inaugurated a $5 billion utility-scale wind power park in Jaisalmer, Rajasthan, adding 3,000 MW of renewable generation capacity.",
+    "category": "Energy",
+    "source_published_at": "2026-09-03T18:34:53.808346+00:00",
+    "ingested_at": "2026-09-03T18:50:53.808346+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "0bd4bbcd-ff3a-5eef-8c1c-f9a38fcc161c",
+    "source_name": "Capital Markets Daily",
+    "headline": "Jaisalmer wind energy project launches after $5 billion investment",
+    "body": "A $5 billion wind farm complex in Rajasthan's Jaisalmer district has commenced feeding power into the national grid following official commissioning.",
+    "category": "Energy",
+    "source_published_at": "2026-09-03T17:21:53.808346+00:00",
+    "ingested_at": "2026-09-03T17:32:53.808346+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "9f844865-2bed-5646-bb47-f91e4960ce5c",
+    "source_name": "National News Syndicate",
+    "headline": "$5B Rajasthan wind energy park begins feeding power to grid",
+    "body": "The newly completed $5 billion wind turbine facility in Jaisalmer has officially begun commercial electricity generation in western Rajasthan.",
+    "category": "Energy",
+    "source_published_at": "2026-09-03T17:54:53.808346+00:00",
+    "ingested_at": "2026-09-03T18:01:53.808346+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "05946137-aa99-5d1f-af38-c3ccc5126fce",
+    "source_name": "Pacific Rim Dispatch",
+    "headline": "Wind power park near Jaisalmer goes live following $5B project rollout",
+    "body": "Clean energy developer Adani Green completed the installation of heavy wind turbine generators at its $5 billion Jaisalmer clean power hub.",
+    "category": "Energy",
+    "source_published_at": "2026-09-03T15:05:53.808346+00:00",
+    "ingested_at": "2026-09-03T15:31:53.808346+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "fdf84db9-c803-5a23-a6a3-14f7f3735f5b",
+    "source_name": "Healthcare & Biotech Digest",
+    "headline": "AIIMS New Delhi reports promising Phase-3 results for indigenous mRNA cancer vaccine",
+    "body": "Researchers at AIIMS New Delhi announced groundbreaking Phase-3 clinical trial data showing strong efficacy for an indigenous mRNA therapeutic cancer vaccine.",
+    "category": "Healthcare",
+    "source_published_at": "2026-09-02T23:44:31.841068+00:00",
+    "ingested_at": "2026-09-02T23:51:31.841068+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "d3cad5a5-9e9d-5ee4-b6b5-baba9af1ff9c",
+    "source_name": "National News Syndicate",
+    "headline": "Indigenous mRNA cancer vaccine shows high efficacy in AIIMS trial",
+    "body": "Clinical trials conducted at AIIMS Delhi revealed encouraging immunogenicity and safety metrics for a newly developed mRNA vaccine targeting solid tumors.",
+    "category": "Healthcare",
+    "source_published_at": "2026-09-03T02:08:31.841068+00:00",
+    "ingested_at": "2026-09-03T02:20:31.841068+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "3e15d8a3-2fd4-5785-903e-81d0a852dfaa",
+    "source_name": "Indo-Pacific Observer",
+    "headline": "AIIMS researchers achieve Phase-3 success with mRNA oncology vaccine",
+    "body": "Medical scientists at AIIMS in New Delhi have successfully completed Phase-3 human trials for a novel mRNA-based cancer immunotherapy product.",
+    "category": "Healthcare",
+    "source_published_at": "2026-09-03T02:11:31.841068+00:00",
+    "ingested_at": "2026-09-03T02:19:31.841068+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "a5e69a82-f7b7-5c51-a3e5-29373e3234db",
+    "source_name": "Global Tech Pulse",
+    "headline": "Phase-3 clinical data validates AIIMS Delhi mRNA cancer vaccine candidate",
+    "body": "A clinical study led by AIIMS New Delhi confirmed high response rates among patients participating in the trial for India's first mRNA cancer shot.",
+    "category": "Healthcare",
+    "source_published_at": "2026-09-03T00:07:31.841068+00:00",
+    "ingested_at": "2026-09-03T00:20:31.841068+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "16302654-79f0-5522-a4c6-f3cca1ae3ced",
+    "source_name": "Healthcare & Biotech Digest",
+    "headline": "NIMHANS Bengaluru unveils AI diagnostic model for early Alzheimer detection",
+    "body": "Scientists at NIMHANS Bengaluru have published a milestone study detailing an artificial intelligence model that identifies early biomarkers of Alzheimer's disease from neuroimaging.",
+    "category": "Healthcare",
+    "source_published_at": "2026-09-03T11:31:49.259507+00:00",
+    "ingested_at": "2026-09-03T11:47:49.259507+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "cc4efc88-068b-5d4d-8917-db1c0078bdd2",
+    "source_name": "South Asia Technology Review",
+    "headline": "Bengaluru institute NIMHANS uses AI algorithms to detect Alzheimer's early",
+    "body": "Researchers at NIMHANS in Bengaluru developed a deep-learning algorithm capable of predicting cognitive decline up to five years before symptom onset.",
+    "category": "Healthcare",
+    "source_published_at": "2026-09-03T08:39:49.259507+00:00",
+    "ingested_at": "2026-09-03T08:55:49.259507+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "0e0caa9a-72c5-52fa-81bd-fa335121dd07",
+    "source_name": "Global Tech Pulse",
+    "headline": "NIMHANS study demonstrates AI precision in diagnosing neurodegenerative conditions",
+    "body": "A collaborative study conducted by NIMHANS Bengaluru demonstrated 94% accuracy in detecting early stage Alzheimer's disease using AI analysis of MRI scans.",
+    "category": "Healthcare",
+    "source_published_at": "2026-09-03T09:28:49.259507+00:00",
+    "ingested_at": "2026-09-03T09:39:49.259507+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "f1b0bd1e-82aa-5822-a951-28096756f306",
+    "source_name": "Pacific Rim Dispatch",
+    "headline": "AI brain scan model created at NIMHANS catches early Alzheimer's signs",
+    "body": "Medical researchers in Bengaluru at NIMHANS showcased an AI platform trained on brain scan datasets to diagnose early Alzheimer's disease.",
+    "category": "Healthcare",
+    "source_published_at": "2026-09-03T10:49:49.259507+00:00",
+    "ingested_at": "2026-09-03T11:02:49.259507+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "1328cb76-a5fd-53ac-bab8-5a0ba3196041",
+    "source_name": "Urban Transport Weekly",
+    "headline": "Noida International Airport at Jewar completes inaugural flight calibration trials",
+    "body": "The upcoming Noida International Airport at Jewar successfully concluded its first round of calibration flight trials for instrument landing systems.",
+    "category": "Transport",
+    "source_published_at": "2026-09-03T21:18:48.853184+00:00",
+    "ingested_at": "2026-09-03T21:43:48.853184+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "b43e2daf-b1c9-50b9-a99e-cbdd9c57d43d",
+    "source_name": "Metro Press Network",
+    "headline": "Calibration aircraft land at Jewar Noida airport in successful test run",
+    "body": "Aviation authorities reported flawless execution of trial flight landings at the new Jewar airport site in Greater Noida.",
+    "category": "Transport",
+    "source_published_at": "2026-09-03T18:42:48.853184+00:00",
+    "ingested_at": "2026-09-03T19:06:48.853184+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "28095d97-6b54-5535-9be6-9b374a016ccf",
+    "source_name": "Deccan Business Wire",
+    "headline": "Jewar airport marks milestone with successful trial flight operations",
+    "body": "Flight calibration tests were completed at Noida International Airport in Jewar, clearing the runway for upcoming commercial operationalization.",
+    "category": "Transport",
+    "source_published_at": "2026-09-03T21:06:48.853184+00:00",
+    "ingested_at": "2026-09-03T21:16:48.853184+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "896d9676-4d8a-512f-b18c-ddbea0f3791d",
+    "source_name": "State Commerce Gazette",
+    "headline": "Noida airport at Jewar passes key flight calibration inspection",
+    "body": "Test aircraft completed multiple approaches and touch-and-go landings at the Jewar international airport greenfield project.",
+    "category": "Transport",
+    "source_published_at": "2026-09-03T20:40:48.853184+00:00",
+    "ingested_at": "2026-09-03T21:08:48.853184+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "695fbbcf-7521-57e6-b483-01ffccd85d14",
+    "source_name": "Urban Transport Weekly",
+    "headline": "Navi Mumbai International Airport granted formal DGCA aerodrome license",
+    "body": "Aviation regulator DGCA has granted the official aerodrome license to Navi Mumbai International Airport, paving the way for commercial flight operations.",
+    "category": "Transport",
+    "source_published_at": "2026-09-03T01:11:09.033672+00:00",
+    "ingested_at": "2026-09-03T01:28:09.033672+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "4d0410c7-64af-5e97-8756-a222ecb05faa",
+    "source_name": "Financial Chronicle Direct",
+    "headline": "DGCA issues operational license for Navi Mumbai greenfield airport",
+    "body": "The Directorate General of Civil Aviation issued the aerodrome license for Navi Mumbai International Airport after inspecting infrastructure safety.",
+    "category": "Transport",
+    "source_published_at": "2026-09-03T00:22:09.033672+00:00",
+    "ingested_at": "2026-09-03T00:47:09.033672+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "08e426e6-67b6-5066-be35-d3c4a96b7a67",
+    "source_name": "Metro Press Network",
+    "headline": "Navi Mumbai airport secures regulatory license for commercial flights",
+    "body": "Project developers at Navi Mumbai International Airport received final regulatory licensing approval from civil aviation authorities.",
+    "category": "Transport",
+    "source_published_at": "2026-09-03T02:09:09.033672+00:00",
+    "ingested_at": "2026-09-03T02:31:09.033672+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "8af5bb13-d2d1-511a-8c14-f4b9ec16feaa",
+    "source_name": "Pacific Rim Dispatch",
+    "headline": "Aviation regulator approves aerodrome license for Navi Mumbai airport",
+    "body": "DGCA inspectors formally signed off on safety and security protocols, issuing the aerodrome license for Navi Mumbai's new airport facility.",
+    "category": "Transport",
+    "source_published_at": "2026-09-03T00:09:09.033672+00:00",
+    "ingested_at": "2026-09-03T00:35:09.033672+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "61cc83aa-29ed-5ee9-a19c-f1c104e8099b",
+    "source_name": "State Commerce Gazette",
+    "headline": "Tata Motors opens $1.5B electric vehicle assembly mega-plant in Sanand",
+    "body": "Tata Motors inaugurated a $1.5 billion manufacturing plant dedicated exclusively to passenger electric vehicle assembly in Sanand, Gujarat.",
+    "category": "Business",
+    "source_published_at": "2026-09-03T05:49:25.171233+00:00",
+    "ingested_at": "2026-09-03T06:18:25.171233+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "d9ed184d-2179-5bc1-af99-bb5ec698f175",
+    "source_name": "Deccan Business Wire",
+    "headline": "$1.5 billion Tata EV factory begins car production in Sanand",
+    "body": "Commercial production of electric SUVs began today at Tata Motors' new $1.5 billion vehicle manufacturing hub located in Sanand.",
+    "category": "Business",
+    "source_published_at": "2026-09-03T02:47:25.171233+00:00",
+    "ingested_at": "2026-09-03T02:59:25.171233+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "2b2edae6-78eb-5826-9999-dfaa0c654380",
+    "source_name": "Capital Markets Daily",
+    "headline": "Tata Motors expands Sanand footprint with $1.5B electric car facility",
+    "body": "Automaker Tata Motors expanded its EV manufacturing footprint after commissioning a $1.5 billion vehicle plant in Sanand, Gujarat.",
+    "category": "Business",
+    "source_published_at": "2026-09-03T06:03:25.171233+00:00",
+    "ingested_at": "2026-09-03T06:09:25.171233+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "3b883b96-99b7-55c9-bcfa-86b09419bcf7",
+    "source_name": "National News Syndicate",
+    "headline": "Sanand EV factory launched by Tata Motors following $1.5B investment",
+    "body": "Tata Motors formally rolled out the first batch of electric vehicles from its newly constructed $1.5 billion assembly plant in Sanand.",
+    "category": "Business",
+    "source_published_at": "2026-09-03T05:59:25.171233+00:00",
+    "ingested_at": "2026-09-03T06:14:25.171233+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "6ca5c696-797d-5c4b-869b-d940c1f7168e",
+    "source_name": "State Commerce Gazette",
+    "headline": "Mahindra commits $900M for EV battery cell gigafactory near Pune",
+    "body": "Mahindra & Mahindra announced a $900 million investment to establish an advanced battery cell manufacturing gigafactory located near Pune, Maharashtra.",
+    "category": "Business",
+    "source_published_at": "2026-09-03T06:03:09.737587+00:00",
+    "ingested_at": "2026-09-03T06:14:09.737587+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "5fbec8ce-9299-58c5-8f69-52073d0aabf2",
+    "source_name": "Financial Chronicle Direct",
+    "headline": "Pune selected for Mahindra's new $900 million EV battery plant",
+    "body": "Mahindra secured regulatory approval for a $900 million EV battery pack assembly and cell chemistry manufacturing complex in the Pune industrial belt.",
+    "category": "Business",
+    "source_published_at": "2026-09-03T09:40:09.737587+00:00",
+    "ingested_at": "2026-09-03T10:03:09.737587+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "294340fc-28c8-5bad-8dc7-80139642d872",
+    "source_name": "South Asia Technology Review",
+    "headline": "Mahindra breaks ground on $900M battery manufacturing facility in Pune",
+    "body": "Construction commenced on Mahindra's $900 million EV battery plant near Pune, designed to supply power packs for upcoming electric SUV models.",
+    "category": "Business",
+    "source_published_at": "2026-09-03T09:31:09.737587+00:00",
+    "ingested_at": "2026-09-03T09:58:09.737587+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "eb13dbbb-e31e-5efe-ba6e-29a84ee38f15",
+    "source_name": "Indo-Pacific Observer",
+    "headline": "Mahindra invests $900M in Pune electric vehicle battery factory",
+    "body": "Mahindra & Mahindra broke ground on a $900 million specialized facility for manufacturing electric vehicle battery modules in Pune.",
+    "category": "Business",
+    "source_published_at": "2026-09-03T07:07:09.737587+00:00",
+    "ingested_at": "2026-09-03T07:18:09.737587+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "9b76baf5-c75d-5517-af7f-f6254ab8e53a",
+    "source_name": "National News Syndicate",
+    "headline": "National Green Tribunal slaps \u20b9500 crore penalty over Yamuna River toxic foam",
+    "body": "The National Green Tribunal imposed an environmental compensation penalty of \u20b9500 crore on industrial units polluting the Yamuna river in Delhi.",
+    "category": "Environment",
+    "source_published_at": "2026-09-03T18:08:55.947982+00:00",
+    "ingested_at": "2026-09-03T18:33:55.947982+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "0a374942-1269-5b56-b8c2-427ec86b9750",
+    "source_name": "Metro Press Network",
+    "headline": "NGT orders \u20b9500 crore fine for industrial effluent discharge into Yamuna",
+    "body": "Observing severe toxic froth formation on the Yamuna, the Green Tribunal penalized defaulting civic agencies and industrial clusters \u20b9500 crore.",
+    "category": "Environment",
+    "source_published_at": "2026-09-03T18:24:55.947982+00:00",
+    "ingested_at": "2026-09-03T18:33:55.947982+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "2fabc5a9-77f2-5520-80d0-9d0dc3f94767",
+    "source_name": "Urban Transport Weekly",
+    "headline": "Yamuna river pollution: NGT slaps \u20b9500 crore environmental compensation fine",
+    "body": "The NGT directed authorities to collect \u20b9500 crore in environmental damages from entities responsible for dumping untreated industrial waste into the Yamuna.",
+    "category": "Environment",
+    "source_published_at": "2026-09-03T17:34:55.947982+00:00",
+    "ingested_at": "2026-09-03T17:43:55.947982+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "86cfda69-0c92-589b-b84d-03d0de14488b",
+    "source_name": "State Commerce Gazette",
+    "headline": "Tribunal imposes \u20b9500 cr fine over untreated sewage waste in Yamuna",
+    "body": "A principal bench of the NGT issued strict directions and a \u20b9500 crore fine targeting toxic effluent discharges corrupting the Yamuna river.",
+    "category": "Environment",
+    "source_published_at": "2026-09-03T17:30:55.947982+00:00",
+    "ingested_at": "2026-09-03T17:58:55.947982+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "21a7fef9-e554-5ea9-aab4-6eb782e84927",
+    "source_name": "National News Syndicate",
+    "headline": "High Court demands immediate action plan to clean Pune's Mula-Mutha river",
+    "body": "The Bombay High Court directed municipal authorities in Pune to submit a comprehensive blueprint for stopping raw sewage disposal into the Mula-Mutha river.",
+    "category": "Environment",
+    "source_published_at": "2026-09-03T13:37:52.483674+00:00",
+    "ingested_at": "2026-09-03T14:05:52.483674+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "3d912fbe-770b-5faa-bd84-2d1ec2f403cf",
+    "source_name": "Metro Press Network",
+    "headline": "Pune municipal body reprimanded by High Court over Mula-Mutha river pollution",
+    "body": "Hearing a public interest litigation, the High Court warned civic officials in Pune over delays in constructing sewage treatment plants along the Mula-Mutha river.",
+    "category": "Environment",
+    "source_published_at": "2026-09-03T14:59:52.483674+00:00",
+    "ingested_at": "2026-09-03T15:17:52.483674+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "957e8776-1dfa-504d-818f-01d46901294b",
+    "source_name": "Pacific Rim Dispatch",
+    "headline": "High Court orders strict monitoring of sewage treatment plants in Pune",
+    "body": "Judicial bench issued orders requiring weekly water quality testing and compliance reports for all sewage treatment plants along Pune's Mula-Mutha river.",
+    "category": "Environment",
+    "source_published_at": "2026-09-03T16:19:52.483674+00:00",
+    "ingested_at": "2026-09-03T16:42:52.483674+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "eeb94b60-8f75-5c58-aa3e-2d373127c8bb",
+    "source_name": "Urban Transport Weekly",
+    "headline": "Court mandates time-bound cleanup strategy for Mula-Mutha river in Pune",
+    "body": "The High Court instructed environmental officers in Pune to shut down non-compliant industrial units discharging heavy metals into Mula-Mutha.",
+    "category": "Environment",
+    "source_published_at": "2026-09-03T14:12:52.483674+00:00",
+    "ingested_at": "2026-09-03T14:28:52.483674+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "e13b37e3-4a1b-5c61-8ef1-77fd8f6d284f",
+    "source_name": "Sports Horizon Media",
+    "headline": "India crowned T20 World Cup champions after thrilling 7-run victory over South Africa",
+    "body": "India clinched the T20 Cricket World Cup trophy in Barbados, holding off South Africa by 7 runs in a dramatic final over finish.",
+    "category": "Sports",
+    "source_published_at": "2026-09-02T22:43:54.920574+00:00",
+    "ingested_at": "2026-09-02T23:04:54.920574+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "a1db5c30-7134-54a7-be48-063d5c4447f3",
+    "source_name": "National News Syndicate",
+    "headline": "India wins T20 Cricket World Cup in Barbados final thriller",
+    "body": "Sensational death bowling sealed a historic T20 World Cup triumph for India as they defeated South Africa in the final match.",
+    "category": "Sports",
+    "source_published_at": "2026-09-03T00:14:54.920574+00:00",
+    "ingested_at": "2026-09-03T00:21:54.920574+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "1f15ffab-30ba-5b81-bae3-4ed6d87b3d25",
+    "source_name": "Indo-Pacific Observer",
+    "headline": "India lifts T20 World Cup trophy after beating South Africa in finals",
+    "body": "Celebrations erupted across India following the national cricket team's T20 World Cup victory against South Africa in the Bridgetown final.",
+    "category": "Sports",
+    "source_published_at": "2026-09-03T01:21:54.920574+00:00",
+    "ingested_at": "2026-09-03T01:27:54.920574+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "54ac32c2-dc11-5518-abeb-edea6e2505a0",
+    "source_name": "Metro Press Network",
+    "headline": "T20 World Cup victory: India edge past South Africa in Barbados final",
+    "body": "India secured its second T20 Cricket World Cup title after overcoming South Africa by 7 runs in an intense final showdown.",
+    "category": "Sports",
+    "source_published_at": "2026-09-03T01:48:54.920574+00:00",
+    "ingested_at": "2026-09-03T01:56:54.920574+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "c855008f-7d7b-5753-a8ed-ff6f2ca2201e",
+    "source_name": "Sports Horizon Media",
+    "headline": "India Men's Hockey team defeats China 1-0 to win Asian Champions Trophy",
+    "body": "The Indian men's field hockey team defended its Asian Champions Trophy title with a hard-fought 1-0 victory over host nation China in the final.",
+    "category": "Sports",
+    "source_published_at": "2026-09-02T20:01:23.229274+00:00",
+    "ingested_at": "2026-09-02T20:31:23.229274+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "acb8b2e7-64bb-560f-811b-161d1613557a",
+    "source_name": "National News Syndicate",
+    "headline": "Indian hockey team claims Asian Champions Trophy gold medal",
+    "body": "A late fourth-quarter field goal secured gold for the Indian hockey squad at the Asian Champions Trophy tournament held in Hulunbuir.",
+    "category": "Sports",
+    "source_published_at": "2026-09-02T22:15:23.229274+00:00",
+    "ingested_at": "2026-09-02T22:33:23.229274+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "fc87e500-6aeb-5edc-be0c-918eef929b74",
+    "source_name": "Indo-Pacific Observer",
+    "headline": "India retains Asian Hockey Champions Trophy title with victory over China",
+    "body": "Indian men's hockey team recorded an unbeaten campaign to lift the Asian Champions Trophy trophy in Inner Mongolia.",
+    "category": "Sports",
+    "source_published_at": "2026-09-02T21:53:23.229274+00:00",
+    "ingested_at": "2026-09-02T22:00:23.229274+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "50818361-e000-59d5-96b0-2f5b6331c658",
+    "source_name": "Metro Press Network",
+    "headline": "Gold for India in Asian Hockey Champions Trophy final against China",
+    "body": "India's field hockey squad concluded an impressive tournament performance, clinching the Asian Champions Trophy gold medal.",
+    "category": "Sports",
+    "source_published_at": "2026-09-02T20:59:23.229274+00:00",
+    "ingested_at": "2026-09-02T21:16:23.229274+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "bf63d9a5-263f-5b46-a50e-e30aeb171fe5",
+    "source_name": "Financial Chronicle Direct",
+    "headline": "India Q1 GDP growth surges to 7.8% on robust manufacturing and investment",
+    "body": "Gross Domestic Product expanded by 7.8% in the first quarter of the fiscal year, exceeding economic forecasts driven by strong capital expenditure.",
+    "category": "Economy",
+    "source_published_at": "2026-09-03T15:56:51.952157+00:00",
+    "ingested_at": "2026-09-03T16:17:51.952157+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "ab3d280d-8bc7-57b2-a44b-85631d05d0cd",
+    "source_name": "Capital Markets Daily",
+    "headline": "Q1 GDP growth hits 7.8 percent as industrial output gains momentum",
+    "body": "Official government data revealed India's economy grew at a brisk 7.8% pace in Q1, reflecting resilient domestic consumer demand.",
+    "category": "Economy",
+    "source_published_at": "2026-09-03T15:01:51.952157+00:00",
+    "ingested_at": "2026-09-03T15:23:51.952157+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "b1356ee2-ab0e-577e-970d-7dd877eb0472",
+    "source_name": "State Commerce Gazette",
+    "headline": "Economic growth speeds up: Q1 GDP prints at 7.8%",
+    "body": "India maintained its position as the fastest-growing major economy after registering 7.8% GDP expansion for the April-June quarter.",
+    "category": "Economy",
+    "source_published_at": "2026-09-03T17:37:51.952157+00:00",
+    "ingested_at": "2026-09-03T17:42:51.952157+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "5e2b65be-5232-5267-9564-2ce27afc70fe",
+    "source_name": "Deccan Business Wire",
+    "headline": "India reports 7.8% economic expansion in first quarter earnings data",
+    "body": "Manufacturing and construction activity powered India's quarterly GDP growth to 7.8%, beating analyst projections.",
+    "category": "Economy",
+    "source_published_at": "2026-09-03T16:51:51.952157+00:00",
+    "ingested_at": "2026-09-03T17:19:51.952157+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "5e6ce623-4e7f-5dca-a0a8-44be68405b93",
+    "source_name": "Pacific Rim Dispatch",
+    "headline": "ISRO successfully places EOS-08 Earth Observation Satellite into orbit via SSLV-D3",
+    "body": "The Indian Space Research Organisation successfully deployed the EOS-08 satellite into intended orbit from Sriharikota using its SSLV-D3 rocket.",
+    "category": "Science",
+    "source_published_at": "2026-09-02T21:30:53.845328+00:00",
+    "ingested_at": "2026-09-02T21:52:53.845328+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "cb674fe9-6380-53b3-904a-fa4e365c8dac",
+    "source_name": "Metro Press Network",
+    "headline": "Chennai inaugurates 50 eco-friendly urban micro-parks designed to absorb rainwater",
+    "body": "The Greater Chennai Corporation opened 50 newly developed micro-parks equipped with underground rainwater harvesting recharge wells to prevent monsoon flooding.",
+    "category": "Local",
+    "source_published_at": "2026-09-03T23:44:26.345087+00:00",
+    "ingested_at": "2026-09-04T00:09:26.345087+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "3c60dccb-5e9d-5b19-b763-460b765c4c62",
+    "source_name": "Financial Chronicle Direct",
+    "headline": "India July CPI retail inflation drops to 3.54%, lowest level in 5 years",
+    "body": "Consumer price index inflation slowed sharply to 3.54% in July, falling below the central bank's medium-term target of 4.0%.",
+    "category": "Economy",
+    "source_published_at": "2026-09-03T04:28:28.153311+00:00",
+    "ingested_at": "2026-09-03T04:46:28.153311+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "90aaa9ee-ad19-5c38-9a48-5104c2969292",
+    "source_name": "Capital Markets Daily",
+    "headline": "SEBI mandates enhanced API security and annual audits for algorithmic trading brokers",
+    "body": "Markets regulator SEBI published updated guidelines requiring stockbrokers offering algo-trading facilities to undergo mandatory annual cybersecurity audits.",
+    "category": "Business",
+    "source_published_at": "2026-09-02T19:34:47.074246+00:00",
+    "ingested_at": "2026-09-02T20:02:47.074246+00:00",
+    "embedding_status": "PENDING"
+  },
+  {
+    "id": "909df08d-2028-5e22-934a-6ac18c8e9e63",
+    "source_name": "National News Syndicate",
+    "headline": "Kerala government sanctions \u20b9250 crore eco-tourism restoration package for Wayanad",
+    "body": "Kerala state authorities approved a \u20b9250 crore infrastructure rejuvenation project aimed at promoting sustainable eco-tourism in Wayanad.",
+    "category": "Local",
+    "source_published_at": "2026-09-04T02:50:22.586374+00:00",
+    "ingested_at": "2026-09-04T03:11:22.586374+00:00",
+    "embedding_status": "PENDING"
+  }
+]
