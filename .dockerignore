@@ -1,0 +1,23 @@
+# Exclude environment secret files
+.env
+.env.*
+backend/.env
+!.env.example
+!backend/.env.example
+
+# Exclude virtual environments & node_modules
+venv/
+.venv/
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Exclude Python byte code & cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Exclude Git & logs
+.git/
+.gitignore
+*.log

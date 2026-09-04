@@ -34,7 +34,8 @@ Modern newsrooms receive hundreds of incoming wire items, press releases, blog p
 - **One-Click Demo Reset**: Restores the database to its post-seeded 81-item baseline state for repeatable assessment testing.
 - **Topic vs. Event Interactive Sandbox**: Live demonstration module allowing evaluators to compare semantic topic similarity against LLM event-level verification.
 - **Supabase PostgreSQL Database**: Relational schema enforcing referential integrity and audit logging.
-- **Modern React Frontend**: Dark-themed, responsive SPA built with React, Vite, and custom CSS design system.
+- **Google Cloud Run Backend**: Containerized Python 3.11 Flask service with Google Cloud Build CI/CD (`backend/Dockerfile`, `cloudbuild.yaml`).
+- **Modern React Frontend**: Dark-themed, responsive SPA built with React, Vite, and custom CSS design system hosted on Vercel.
 - **Automated Test Suite**: 46 backend unit/integration tests and automated dataset clustering evaluation script.
 
 ---
@@ -208,7 +209,7 @@ The application utilizes PostgreSQL (hosted on Supabase in production) with the 
 - **JWT Tokens**: Authenticated requests require a `Bearer <token>` HTTP Authorization header signed via HMAC-SHA256.
 - **Password Security**: Passwords are standard-hashed using `bcrypt`.
 - **Role Enforcement**: Every protected route uses `@jwt_required` and `@require_role(...)` decorators to reject unauthorized access attempt with `401 Unauthorized` or `403 Forbidden`.
-- **Secret Isolation**: Gemini API keys, JWT secrets, and database connection strings remain server-side on Railway and are never sent to the client bundle.
+- **Secret Isolation**: Gemini API keys, JWT secrets, and database connection strings remain server-side on Google Cloud Run and are never sent to the client bundle.
 
 ---
 
@@ -239,9 +240,11 @@ The application utilizes PostgreSQL (hosted on Supabase in production) with the 
 
 ```
 news-brief-desk/
-├── Procfile                    # Production Railway process definition
+├── cloudbuild.yaml             # Google Cloud Build CI/CD workflow
 ├── backend/
-│   ├── Procfile                # Backend-specific process definition
+│   ├── Dockerfile              # Production Python 3.11 Docker build container
+│   ├── .dockerignore           # Container build ignore rules
+│   ├── cloudbuild.yaml         # Subdirectory Google Cloud Build trigger config
 │   ├── app.py                  # Flask entry point & Blueprint registration
 │   ├── config.py               # Environment & configuration management
 │   ├── requirements.txt        # Python dependencies
@@ -282,16 +285,18 @@ news-brief-desk/
 | **Embeddings** | `SentenceTransformers` (`all-MiniLM-L6-v2`) | Local 384-dimensional text embedding generation |
 | **LLM Provider** | Google Gemini (`gemini-2.5-flash`) | Fact verification & brief synthesis |
 | **Authentication** | PyJWT, bcrypt | JWT token signing & secure password hashing |
-| **Deployment** | Vercel (Frontend), Railway (Backend) | Cloud hosting environment |
+| **Backend Deployment** | Google Cloud Run (Docker) | Containerized serverless backend hosting |
+| **Frontend Deployment** | Vercel | Jamstack SPA hosting |
 
 ---
 
 ## Environment Variables
 
-### Backend (`backend/.env`)
+### Backend (`backend/.env` / Google Cloud Run Variables)
 ```env
 FLASK_ENV=production
 FLASK_DEBUG=0
+PORT=8080
 DATABASE_URL=postgresql://user:password@host:5432/postgres
 JWT_SECRET=your-secure-jwt-secret
 GEMINI_API_KEY=your-google-gemini-api-key
@@ -300,9 +305,9 @@ FRONTEND_URL=https://your-vercel-app.vercel.app
 CORS_ORIGINS=https://your-vercel-app.vercel.app
 ```
 
-### Frontend (`frontend/.env`)
+### Frontend (`frontend/.env` / Vercel Variables)
 ```env
-VITE_API_BASE_URL=https://your-railway-app.up.railway.app/api
+VITE_API_BASE_URL=https://news-brief-desk-xxxx-el.a.run.app/api
 ```
 
 ---
@@ -313,6 +318,7 @@ VITE_API_BASE_URL=https://your-railway-app.up.railway.app/api
 - Python 3.11+
 - Node.js 18+
 - PostgreSQL database (or Supabase instance)
+- Docker (optional for local container testing)
 
 ### 1. Backend Setup
 ```bash
@@ -417,10 +423,10 @@ For evaluators reviewing the application end-to-end:
 
 ## Deployment Architecture
 
-The application is prepared for seamless production cloud deployment:
+The application is deployed on production cloud infrastructure:
 
+- **Backend**: Containerized via **Docker** (`backend/Dockerfile`) and deployed to **Google Cloud Run** in `asia-south1` via **Google Cloud Build** (`cloudbuild.yaml`).
 - **Frontend**: Deployed on **Vercel** (`frontend` root, Vite build target `dist`).
-- **Backend**: Deployed on **Railway** (Flask app managed by Gunicorn bound to `0.0.0.0:$PORT`).
 - **Database**: Managed **Supabase PostgreSQL** instance.
 - **Repository**: [https://github.com/sakethBainagari/News_Brief_Desk.git](https://github.com/sakethBainagari/News_Brief_Desk.git)
 
@@ -454,7 +460,7 @@ The application is prepared for seamless production cloud deployment:
 7. **Server-Side Publication Lock**: Enforcing lock state in Python backend logic ensures API clients cannot bypass UI restrictions.
 8. **Decoupled Ground Truth**: Ground truth events are stored in JSON data files for objective script evaluation, keeping runtime database tables clean.
 9. **Relational Database (PostgreSQL)**: Supabase PostgreSQL provides transactional integrity for story-source mappings and audit logging.
-10. **Backend-Isolated AI Key**: Gemini API keys reside exclusively in backend environment variables, protecting credentials from client-side exposure.
+10. **Containerized Serverless Execution**: Running on Google Cloud Run with Docker guarantees identical runtime environments between local development and cloud production.
 
 ---
 
@@ -488,6 +494,7 @@ The application is prepared for seamless production cloud deployment:
 | **Desk Head analytics & output history** | Executive dashboard calculating stories, time-to-publish, audit logs | ✅ Verified |
 | **Curated evaluation dataset** | 81 raw items, 24 ground-truth events, 9 false-match pairs | ✅ Verified |
 | **Automated Test Suite** | 46 backend unit tests & evaluation script | ✅ Verified |
+| **Backend Cloud Deployment** | Google Cloud Run (Docker + Google Cloud Build) | ✅ Prepared |
 | **Public GitHub Repository** | [https://github.com/sakethBainagari/News_Brief_Desk.git](https://github.com/sakethBainagari/News_Brief_Desk.git) | ✅ Published |
 
 ---
