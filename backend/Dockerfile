@@ -26,5 +26,5 @@ COPY . /app/
 # Expose default Cloud Run port
 EXPOSE 8080
 
-# Start Gunicorn server binding dynamically to $PORT with gthread worker class and 120s timeout
-CMD exec gunicorn --bind 0.0.0.0:${PORT:-8080} --workers 1 --worker-class gthread --threads 8 --timeout 120 app:app
+# Start Gunicorn server binding dynamically to $PORT with 120s timeout
+CMD exec gunicorn --bind 0.0.0.0:${PORT:-8080} --timeout 120 app:app
