@@ -160,7 +160,7 @@ Return ONLY a valid JSON object with no additional markdown or commentary:
                         "matched_facts": parsed.get("matched_facts", {})
                     }
             return _rule_based_fallback_verify(item_a, item_b)
-        except Exception as e:
+        except BaseException as e:
             logger.error(f"Gemini API verification error: {e}")
             return _rule_based_fallback_verify(item_a, item_b)
 
@@ -220,6 +220,6 @@ Return ONLY a valid JSON object:
                     "summary": parsed["summary"]
                 }
             return fallback_brief
-        except Exception as e:
+        except BaseException as e:
             logger.error(f"Gemini API brief generation error: {e}")
             return fallback_brief

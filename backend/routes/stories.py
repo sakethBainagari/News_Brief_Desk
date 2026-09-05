@@ -20,7 +20,7 @@ def run_event_clustering():
             "message": f"Successfully clustered {res['total_items']} raw news items into {res['total_clusters']} story clusters.",
             "data": res
         }), 200
-    except Exception as e:
+    except BaseException as e:
         return jsonify({
             "error": "Clustering Error",
             "message": f"Failed to execute story clustering pipeline: {str(e)}"
