@@ -16,6 +16,13 @@ export default function App() {
   const [selectedStoryForEdit, setSelectedStoryForEdit] = useState(null);
 
   const fetchUser = async () => {
+    const token = localStorage.getItem("news_desk_token");
+    if (!token) {
+      setCurrentUser(null);
+      setLoading(false);
+      return;
+    }
+
     setLoading(true);
     try {
       const user = await getMe();

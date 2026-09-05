@@ -17,6 +17,20 @@ def register_error_handlers(app):
             "message": "The requested API resource or endpoint does not exist."
         }), 404
 
+    @app.errorhandler(401)
+    def unauthorized(error):
+        return jsonify({
+            "error": "Authentication required",
+            "message": str(error.description) if hasattr(error, "description") else "Authorization header is missing or invalid."
+        }), 401
+
+    @app.errorhandler(403)
+    def forbidden(error):
+        return jsonify({
+            "error": "Insufficient permissions",
+            "message": str(error.description) if hasattr(error, "description") else "Forbidden resource."
+        }), 403
+
     @app.errorhandler(500)
     def internal_server_error(error):
         return jsonify({

@@ -1,4 +1,5 @@
-const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000/api";
+const rawBase = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000/api";
+const API_BASE = rawBase.replace(/\/+$/, "");
 
 export async function request(endpoint, options = {}) {
   const token = localStorage.getItem("news_desk_token");
@@ -16,7 +17,8 @@ export async function request(endpoint, options = {}) {
     headers
   };
 
-  const response = await fetch(`${API_BASE}${endpoint}`, config);
+  const cleanEndpoint = endpoint.startsWith("/") ? endpoint : `/${endpoint}`;
+  const response = await fetch(`${API_BASE}${cleanEndpoint}`, config);
   const data = await response.json().catch(() => ({}));
 
   if (!response.ok) {

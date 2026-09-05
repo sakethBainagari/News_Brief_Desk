@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 from flask_cors import CORS
 from config import Config
 from routes.health import health_bp
@@ -17,12 +17,24 @@ def create_app(config_class=Config):
     app = Flask(__name__)
     app.config.from_object(config_class)
 
-    # Enable CORS for frontend integration
+    # Enable CORS for frontend integration across all API resources
+    allowed_origins = ["http://localhost:5173", "http://127.0.0.1:5173", "http://localhost:3000"]
     if Config.CORS_ORIGINS:
-        allowed_origins = Config.CORS_ORIGINS + ["http://localhost:5173", "http://127.0.0.1:5173", "http://localhost:3000"]
-        CORS(app, resources={r"/api/*": {"origins": allowed_origins}}, supports_credentials=True)
-    else:
-        CORS(app)
+        for orig in Config.CORS_ORIGINS:
+            if orig and orig not in allowed_origins:
+                allowed_origins.append(orig)
+
+    CORS(app, resources={r"/api/*": {"origins": allowed_origins}}, supports_credentials=True)
+
+    @app.after_request
+    def add_cors_headers(response):
+        origin = request.headers.get("Origin")
+        if origin and (origin in allowed_origins or not Config.CORS_ORIGINS):
+            response.headers["Access-Control-Allow-Origin"] = origin
+            response.headers["Access-Control-Allow-Credentials"] = "true"
+            response.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization"
+            response.headers["Access-Control-Allow-Methods"] = "GET, POST, PUT, DELETE, OPTIONS"
+        return response
 
     # Register Blueprints
     app.register_blueprint(health_bp, url_prefix="/api")
