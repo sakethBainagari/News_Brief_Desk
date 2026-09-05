@@ -8,7 +8,8 @@ from db.story_queries import (
     clear_existing_clusters,
     create_story_cluster,
     link_story_source,
-    create_story_brief
+    create_story_brief,
+    save_clusters_batch
 )
 from db.queries import get_raw_items
 
@@ -112,12 +113,6 @@ class StoryClusteringEngine:
         components = build_connected_components(n_items, same_event_edges)
         logger.info(f"Built {len(components)} story clusters from {n_items} raw items.")
 
-        if save_to_db:
-            try:
-                clear_existing_clusters()
-            except Exception as e:
-                logger.warning(f"Could not clear DB clusters before saving: {e}")
-
         clusters_result = []
 
         for comp_indices in components:
@@ -149,35 +144,7 @@ class StoryClusteringEngine:
             # Step 5: Brief Generation
             brief = self.gemini_service.generate_brief_draft(cluster_items)
 
-            story_id = None
-            if save_to_db:
-                try:
-                    story_id = create_story_cluster(
-                        canonical_headline=canonical_headline,
-                        category=category,
-                        confidence=avg_confidence,
-                        confidence_reason=confidence_reason,
-                        first_incoming_at=first_incoming_at
-                    )
-                    create_story_brief(
-                        story_id=story_id,
-                        headline=brief["headline"],
-                        summary=brief["summary"],
-                        status="DRAFT"
-                    )
-                    for item in cluster_items:
-                        link_story_source(
-                            story_id=story_id,
-                            raw_item_id=item["id"],
-                            match_label="SAME_EVENT" if len(cluster_items) > 1 else "SAME_EVENT",
-                            match_confidence=avg_confidence,
-                            match_reason=confidence_reason
-                        )
-                except Exception as e:
-                    logger.warning(f"Could not persist cluster to DB: {e}")
-
             clusters_result.append({
-                "story_id": story_id,
                 "canonical_headline": canonical_headline,
                 "category": category,
                 "confidence": avg_confidence,
@@ -185,8 +152,15 @@ class StoryClusteringEngine:
                 "first_incoming_at": first_incoming_at,
                 "source_count": len(cluster_items),
                 "brief": brief,
+                "cluster_items": cluster_items,
                 "raw_item_ids": [item["id"] for item in cluster_items]
             })
+
+        if save_to_db and clusters_result:
+            try:
+                save_clusters_batch(clusters_result)
+            except Exception as e:
+                logger.warning(f"Could not persist clusters to DB: {e}")
 
         return {
             "total_items": n_items,
