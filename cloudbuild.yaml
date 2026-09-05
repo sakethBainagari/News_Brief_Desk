@@ -31,6 +31,8 @@ steps:
       - '--platform'
       - 'managed'
       - '--allow-unauthenticated'
+      - '--timeout'
+      - '300'
 
 images:
   - 'asia-south1-docker.pkg.dev/$PROJECT_ID/news-brief-desk/news-brief-desk:$COMMIT_SHA'
