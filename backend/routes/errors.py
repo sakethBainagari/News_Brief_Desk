@@ -32,8 +32,10 @@ def register_error_handlers(app):
         }), 403
 
     @app.errorhandler(500)
+    @app.errorhandler(Exception)
     def internal_server_error(error):
+        msg = str(error.description) if hasattr(error, "description") else (str(error) if str(error) else "An unexpected error occurred on the server.")
         return jsonify({
             "error": "Internal Server Error",
-            "message": "An unexpected error occurred on the server."
+            "message": msg
         }), 500

@@ -30,9 +30,13 @@ class Config:
     FAISS_TOP_K = int(os.getenv("FAISS_TOP_K", "10"))
 
     # CORS Configuration
-    FRONTEND_URL = os.getenv("FRONTEND_URL", "")
+    FRONTEND_URL = os.getenv("FRONTEND_URL", "https://news-brief-desk.vercel.app")
     _cors_env = os.getenv("CORS_ORIGINS", "")
-    CORS_ORIGINS = [orig.strip() for orig in _cors_env.split(",") if orig.strip()]
-    if FRONTEND_URL and FRONTEND_URL not in CORS_ORIGINS:
-        CORS_ORIGINS.append(FRONTEND_URL)
+    CORS_ORIGINS = [orig.strip().rstrip("/") for orig in _cors_env.split(",") if orig.strip()]
+    if FRONTEND_URL:
+        clean_frontend = FRONTEND_URL.strip().rstrip("/")
+        if clean_frontend and clean_frontend not in CORS_ORIGINS:
+            CORS_ORIGINS.append(clean_frontend)
+    if "https://news-brief-desk.vercel.app" not in CORS_ORIGINS:
+        CORS_ORIGINS.append("https://news-brief-desk.vercel.app")
 
