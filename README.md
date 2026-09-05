@@ -400,27 +400,6 @@ For evaluators reviewing the application end-to-end:
 
 ---
 
-## Screenshots & Demo Video
-
-### Interface Screenshots
-![Raw Wire View](docs/screenshots/raw_wire.png)
-*Figure 1: Reporter Raw Wire view with 81 incoming unclustered news items.*
-
-![Story Queue View](docs/screenshots/story_queue.png)
-*Figure 2: Clustered story queue showing multi-source aggregation.*
-
-![Editor Desk](docs/screenshots/editor_desk.png)
-*Figure 3: Editor review desk with source evidence inspection and publishing controls.*
-
-![Desk Head Analytics](docs/screenshots/analytics.png)
-*Figure 4: Executive Desk Head dashboard showing output throughput and audit history.*
-
-### Demo Video
-[![Watch News Brief Desk Demo](https://img.youtube.com/vi/DEMO_VIDEO_ID/maxresdefault.jpg)](https://github.com/sakethBainagari/News_Brief_Desk)  
-*(Demo Video walkthrough link available in assessment submission portal)*
-
----
-
 ## Deployment Architecture
 
 The application is deployed on production cloud infrastructure:
