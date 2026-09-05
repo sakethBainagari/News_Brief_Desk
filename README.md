@@ -478,8 +478,3 @@ The application is deployed on production cloud infrastructure:
 
 ---
 
-## Author & Credits
-
-**Saketh Bainagari**  
-Computer Science / AI & ML  
-GitHub: [https://github.com/sakethBainagari](https://github.com/sakethBainagari)
